@@ -386,6 +386,7 @@ export const IonInfiniteScrollContent = /*@__PURE__*/ defineContainer<JSX.IonInf
 
 
 export const IonInput = /*@__PURE__*/ defineContainer<JSX.IonInput>('ion-input', defineIonInput, [
+  'fireFocusEvents',
   'color',
   'accept',
   'autocapitalize',
@@ -780,6 +781,7 @@ export const IonText = /*@__PURE__*/ defineContainer<JSX.IonText>('ion-text', de
 
 
 export const IonTextarea = /*@__PURE__*/ defineContainer<JSX.IonTextarea>('ion-textarea', defineIonTextarea, [
+  'fireFocusEvents',
   'color',
   'autocapitalize',
   'autofocus',
